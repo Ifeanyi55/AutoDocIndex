@@ -15,7 +15,7 @@ import re
 # initialize the pipeline
 nlp = stanza.Pipeline('en', processors='tokenize,ner')
 
-def docIndex(doc,save_as):
+def autodocIndex(doc,save_as):
   # read pdf document
   pdf_doc = PyPDF2.PdfReader(doc)
 
