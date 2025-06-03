@@ -85,5 +85,5 @@ def autodocIndex(doc,save_as):
     document.save(save_as + ".docx")
 
 if __name__ == "__main__":
-  docIndex(doc="memoir.pdf",save_as="memoir_index")
+  autodocIndex(doc="memoir.pdf",save_as="memoir_index")
   print("Memoir Index Created")
